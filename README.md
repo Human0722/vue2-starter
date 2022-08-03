@@ -1,5 +1,8 @@
 # vue2-ready-to-code
-
+- vue
+- vuex
+- vue-router
+- axios
 ## Project setup
 ```
 yarn install
@@ -19,6 +22,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
