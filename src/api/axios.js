@@ -30,7 +30,7 @@ class HttpRequest {
 
     request(options) {
         const instance = axios.create({
-            baseUrl: this.url,
+            baseURL: this.url,
             header: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

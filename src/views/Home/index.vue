@@ -4,6 +4,7 @@
     <h4>vue2-ready-to-code</h4>
     <img src="https://avatars.githubusercontent.com/u/56247729" alt="">
     <textarea v-model="text"></textarea>
+    <button v-on:click="requstHello">send</button>
   </div>
 </template>
 
@@ -16,9 +17,10 @@ export default {
       text: "",
     };
   },
-  created() {
-    document.title = this.$store.state.home.title;
-    homeRequest("https://www.baidu.com");
+  methods: {
+    requestHello() {
+      homeRequest.sendHi();
+    }
   }
 }
 </script>
