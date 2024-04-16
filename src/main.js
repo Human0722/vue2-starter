@@ -5,6 +5,9 @@ import App from './App.vue'
 import router from './router'
 // 配置 vuex
 import store from './store'
+// 配置 axios
+import http from "@/plugins/http";
+Vue.use(http)
 
 Vue.config.productionTip = false
 

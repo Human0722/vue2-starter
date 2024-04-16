@@ -1,6 +1,6 @@
 export default {
     api: {
-        development: 'http://localhost:8888',
+        development: 'http://localhost:9000',
         production: 'http://localhost:8889'
     }
 }
