@@ -8,6 +8,8 @@ import store from './store'
 // 配置 axios
 import http from "@/plugins/http";
 Vue.use(http)
+// 配置全局 css
+import '@/assets/style/index.css'
 // 配置 tailwindcss
 import 'tailwindcss/dist/tailwind.css'
 // 配置 elementUI
