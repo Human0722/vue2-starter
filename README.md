@@ -1,24 +1,30 @@
 # vue2-ready-to-code
+#### branch master:
 - vue
 - vuex
 - vue-router
 - axios
+
+#### branch with-tailwind-element:
+- add tailwindcss
+- add elementUI
+
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+npm lint
 ```
